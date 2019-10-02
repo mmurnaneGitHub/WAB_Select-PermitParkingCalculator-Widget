@@ -15,5 +15,5 @@ Future Enhancements:
   example - .jimu-widget-select display: none;)
 
 * Hide extra map layers in Widget.js within the _initLayers function
-  example - if(layerObject && layerObject.objectIdField && layerInfoArray[index].id != 'Tacoma City Boundary' && layerInfoArray[index].id != 'Neighborhood Business Districts') {
+  example - if (layerObject && layerObject.objectIdField && layerInfoArray[index].id != 'Tacoma City Boundary' && layerInfoArray[index].id != 'Neighborhood Business Districts') {
 
