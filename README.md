@@ -3,7 +3,7 @@ Select Widget for Permit Parking Calculator (https://wspdsmap.cityoftacoma.org/w
 
 Customization to make interface more intuitive.
 
-Version 2.12
+Version 2.13
 
 INSTRUCTIONS:
 1. Copy Widget.html to \widgets\Select\Widget.html
