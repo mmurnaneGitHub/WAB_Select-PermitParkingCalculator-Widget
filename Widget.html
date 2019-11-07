@@ -3,20 +3,19 @@
   <!--MJM customize -->
   <div><b>Instructions:</b>
     <ol>
-        <li>Click 'Select' button <i>(changes from green to black)</i>.</li>
-        <li>Select parking spaces on map <i>(selected spaces will highlight on map with counts appearing below)</i>:</li>
-          <ul>
-                <li type="disc">New selection - Drag mouse on map.</li>
-                <li type="disc">Add to selection - Shift+Drag</li>
-                <li type="disc">Remove from selection - Ctrl+Drag</li>
-           </ul>
-        <li>Create map image by using Print button on toolbar.</li>
-    </ol> 
-  
+      <li>Click 'Select' button <i>(changes from green to black)</i>.</li>
+      <li>Select parking spaces on map <i>(selected spaces will highlight on map with counts appearing below)</i>:</li>
+      <ul>
+        <li type="disc">New selection - Drag mouse on map.</li>
+        <li type="disc">Add to selection - Shift+Drag</li>
+        <li type="disc">Remove from selection - Ctrl+Drag</li>
+      </ul>
+      <li>Create map image by using Print button on toolbar.</li>
+    </ol>
   </div>
   <div class="seperator"></div>
   <!--end customize -->
-  
+
   <div class="layer-node" data-dojo-attach-point="layerListNode">
     <div>
       <div class="select-dijit-container" data-dojo-attach-point="selectDijitNode">
@@ -24,10 +23,11 @@
       <div class="seperator"></div>
       <div class="tool-section">
         <div class="jimu-float-leading label">${nls.layer}</div>
-        <div class="jimu-float-trailing setting feature-action icon-operation" data-dojo-attach-point="settingNode"></div>
+        <div class="jimu-float-trailing setting feature-action icon-operation" data-dojo-attach-point="settingNode">
+        </div>
       </div>
     </div>
-    <div class="layer-nodes" >
+    <div class="layer-nodes">
       <div class="layer-items" data-dojo-attach-point="layerItemsNode"></div>
     </div>
   </div>
